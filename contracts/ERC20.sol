@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MyToken is ERC20, ERC20Burnable, ERC20Pausable, Ownable {
     constructor(address initialOwner)
-        ERC20("nickyinka", "NKYK")
+        ERC20("nickyinka", "NKYKA")
         Ownable(initialOwner)
     {}
 
